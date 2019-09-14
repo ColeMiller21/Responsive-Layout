@@ -1,0 +1,128 @@
+.container {
+    margin-bottom: 150px;
+
+}
+
+#aboutMe {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 30px;
+}
+#project1 {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    padding-right:20px;
+    padding-left: 20px;
+}
+
+#box1 {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #4aaaab;
+    color: white;
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+}
+
+#para1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    text-align: center;
+}
+
+#project2 {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+#project3 {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#project4 {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+#project5 {
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 980px){
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+}
+
+@media screen and (max-width: 640px){
+
+    #header {
+        background-color: transparent;
+        border: none;
+    }
+        
+
+    #name {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav {
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: center;
+        height: 60px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    #bio-heading {
+        text-align: center;
+    }
+    
+    #aboutMe {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-gap: 30px;
+    }
+   
+    #project1 {
+        height: 200px;
+        width: 200px;
+        margin: 8px;
+        padding-right:20px;
+        padding-left: 20px;
+    }
+
+

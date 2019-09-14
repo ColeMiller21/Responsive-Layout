@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    font-family: "Arial", "helvetica Neue", Arial, Helvetica, sans-serif;
+    background-image: url("../images/old_wall.png");
+    min-width: 960px;
+}
+
+h1 h2 {
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: white;
+    border-bottom: 2px solid #4aaaa5;
+    margin-bottom: 50px;
+}
+
+#inner-header {
+    width: 960px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom-style: 2px solid #4aaaab;
+}
+#name {
+    height: 60px;
+    width: 160px;
+    display: inline;
+    float: left;
+    margin: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #4aaaab;
+    padding: 10px;
+    color: white;
+}
+
+#nav {
+    
+    float: right;
+}
+
+#nav ul {
+    margin-left: 5px;
+
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    color: #cccc;
+}
+
+#nav ul li a {
+    
+    display: inline-block;
+    padding: 0px 5px;
+    color: #cccc;
+    
+}
+
+a {
+    font-size: 14px;
+}
+
+
+#nav ul li a:hover {
+    color: #4aaaa5;
+    border-bottom: 1px dashed #4aaaab;
+}
+
+.container {
+    width: 960px;
+    clear: both;
+    padding-top: 10px;
+    margin: 0 auto;
+    border: .5px solid #cccc;
+    background-color: #ffffff;
+    margin-top: 10px;
+    
+}
+h1 {
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bio-image {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    float: left;
+    object-fit: cover;
+}
+
+#bio-heading {
+    color: #4aaaa5;
+    display: block;
+    border-bottom: 2.5px solid #cccc;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#aboutMe {
+    padding: 20px;
+    line-height: 30px;
+    
+}
+
+footer {
+    background-color: #666666;
+    display: block;
+    width: 100%;
+    height: 60px;
+    border-top: 8px solid #4aaaab;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    text-align: center;
+    color: #eee;
+    font-size: small;
+}
+
+@media screen and (max-width: 980px){
+
+
+}
+
+@media screen and (max-width: 768px){
+    #header {
+        background-color: red;
+    }
+
+}
+
+
+
+@media screen and (max-width: 640px){
+
+    body {
+        flex-direction: column;
+    }
+    #header {
+        background-color: transparent;
+        border: none;
+    }
+        
+
+    #name {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav {
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: center;
+        height: 60px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    #bio-heading {
+        text-align: center;
+    }
+    
+       
+   }
+   
+
+
+
+
+   
+
+    
+
+
+

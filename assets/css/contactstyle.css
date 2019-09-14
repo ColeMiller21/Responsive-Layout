@@ -1,0 +1,99 @@
+input[type=text] {
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin: 8px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+input[type="email"] {
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin: 8px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+textarea[type="message"] {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 8px;
+    box-sizing: border-box;
+    text-align: top;
+}
+
+label {
+    color: #7777;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    margin: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #cccccc;
+    color: #4aaaa5;   
+}
+
+.container {
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 980px){
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+}
+
+@media screen and (max-width: 640px){
+    body {
+        flex-direction: column;
+    }
+    #header {
+        background-color: transparent;
+        border: none;
+    }
+        
+
+    #name {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #nav {
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: center;
+        height: 60px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;;
+    }
+
+    #bio-heading {
+        text-align: center;
+    }
+    
+       
+   }
+   #aboutMe {
+       height: 90vh;
+   }
+
