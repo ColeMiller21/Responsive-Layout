@@ -125,4 +125,11 @@
         padding-left: 20px;
     }
 
-
+ #project1,
+ #project2,
+ #project3,
+ #project4,
+ #project5 {
+     justify-content: center;
+     margin: 0 auto;
+ }

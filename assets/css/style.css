@@ -148,9 +148,17 @@ footer {
 
 @media screen and (max-width: 768px){
     #header {
-        background-color: red;
+        background-color: white;
+        width: 100%;
     }
 
+    .container {
+        max-width: 100%;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
 }
 
 
@@ -173,7 +181,7 @@ footer {
     }
 
     #nav {
-        width: 100%;
+        width: 100%;;
         background-color: white;
         margin: 0 auto;
         text-align: center;
@@ -183,22 +191,18 @@ footer {
     .container {
         width: 100%;
         height: auto;
+        margin: auto;
     }
 
     #bio-heading {
         text-align: center;
     }
     
-       
-   }
-   
-
-
-
-
-   
-
     
+    p {
+        font-size: 5vw;
+    }
 
 
-
+   /* tried using max-width: 100%; and height: auto; to make picture stack ontop of text and enlarge, wouldnt work.
+   /* tired to max my text responsive for when the browser gets smaller the text fits the screen
